@@ -1,0 +1,25 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal_container {
+  width: 300px;
+  background: white;
+  height: 200px;
+  border-radius: 3px;
+  text-align: center;
+}
+.modal_title > h4 {
+  margin: 10px;
+  font-weight: 600;
+  opacity: 70%;
+}
+.modal_input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.modal_inputField {
+  margin: 5px;
+}

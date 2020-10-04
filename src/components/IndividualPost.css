@@ -1,0 +1,104 @@
+.individualPost {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.individualPost_container {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.individualPost_title {
+  margin: 10px;
+  text-align: center;
+}
+
+.individualPost_title > h2 {
+  font-weight: 400;
+}
+
+.individualPost_text {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.individualPost_footer {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.individualPost_footer > h5 {
+  opacity: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.individualPost_comment {
+  text-align: right;
+  margin: 20px;
+}
+
+.individualPost_commentIcon {
+  color: teal !important;
+}
+
+.individualPost_commentBox {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.individualPost_commentIcon:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.individualPost_commentForm {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.individualPost_addComment {
+  width: 100%;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.individualPost_commentButton {
+  border: 1px solid lightgray;
+  background: white;
+  cursor: pointer;
+}
+.individualPost_commentSec {
+  display: flex;
+  align-items: center;
+}
+.individualPost_avatar {
+  margin: 10px;
+}
+.individualPost_commentHeader {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  max-width: 300px;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.individual_cmtBoxHeader {
+  display: flex;
+  align-items: center;
+}
+.individualPost_userName {
+  word-wrap: break-word;
+}
+.dlt-btn {
+  flex: 1;
+  margin-right: 20px;
+}

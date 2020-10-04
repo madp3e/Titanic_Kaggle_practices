@@ -1,0 +1,52 @@
+.post {
+  display: flex;
+  justify-content: center;
+}
+
+.post_container {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.post_title {
+  margin: 10px;
+  text-align: center;
+}
+
+.post_title > h2 {
+  font-weight: 400;
+}
+.post_titleLink {
+  text-decoration: none;
+  color: black;
+}
+.post_titleLink:hover {
+  color: red;
+}
+
+.post_text {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.post_footer {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.post_footer > h5 {
+  opacity: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.post_commentIcon {
+  color: teal !important;
+}
+
+.post_commentBox {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
